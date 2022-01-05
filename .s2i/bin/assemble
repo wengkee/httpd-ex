@@ -15,4 +15,4 @@ fi
 
 echo "---> Copying source files to web server directory..."
 cp -Rf /tmp/src/. /var/www/html/
-echo "$(date +%Y-%m-%d) tested by wengkee" > /var/www/html/info.html
+echo "$(date '+%Y-%m-%d %H:%M') tested by wengkee" > /var/www/html/info.html
